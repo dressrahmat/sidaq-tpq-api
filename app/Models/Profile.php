@@ -13,7 +13,7 @@ class Profile extends Model
     protected $table = 'profile';
 
     protected $fillable = [
-        'id_user', 'alamat', 'kota', 'provinsi', 'tanggal_lahir', 'amanah',
+        'id_user', 'id_khidmat', 'alamat', 'kota', 'provinsi', 'tanggal_lahir', 'amanah',
     ];
 
     /**
